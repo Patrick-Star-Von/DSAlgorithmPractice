@@ -88,8 +88,8 @@
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <OutDir>.\x64</OutDir>
     <IncludePath>F:\MyCode\TestProject_2023\TestProject_2023\include;$(IncludePath)</IncludePath>
-    <LibraryPath>F:\MyCode\TestProject_2023\TestProject_2023\lib;$(LibraryPath)</LibraryPath>
-    <ExecutablePath>F:\Jsoncpp\include\json;$(ExecutablePath)</ExecutablePath>
+    <LibraryPath>...\TestProject_2023\lib;$(LibraryPath)</LibraryPath>
+    <ExecutablePath>...\Jsoncpp\include\json;$(ExecutablePath)</ExecutablePath>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
