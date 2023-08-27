@@ -87,9 +87,9 @@
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <OutDir>.\x64</OutDir>
-    <IncludePath>F:\MyCode\TestProject_2023\TestProject_2023\include;$(IncludePath)</IncludePath>
+    <IncludePath>...\TestProject_2023\include;$(IncludePath)</IncludePath>
     <LibraryPath>...\TestProject_2023\lib;$(LibraryPath)</LibraryPath>
-    <ExecutablePath>...\Jsoncpp\include\json;$(ExecutablePath)</ExecutablePath>
+    <ExecutablePath>$(ExecutablePath)</ExecutablePath>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
